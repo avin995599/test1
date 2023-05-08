@@ -12,3 +12,4 @@ RUN jenkins --version
 CMD service jenkins start
 CMD service jenkins status
 RUN echo " jenkins installation setup completed...."
+RUN echo " Dockerfile created..."
